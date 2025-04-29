@@ -13,14 +13,15 @@ body {
 }
 
 header {
-    background-color: blue;
+    background-color: #2965F1;
     height: 76px;
-    padding-top: 20px
+    padding-top: 20px;
 padding-bottom: 20px;
     /* Стили для хедера */
 }
 
 header span {
+    margin-bottom: 20px;
     color: white;
   line-height: 76px;
     font-weight: bold;
@@ -48,8 +49,7 @@ padding-top: 60px;
 }
 
 .main-image {
-    width: 715px;
-    /* Стили для изображения в первой секции */
+max-width: 715px;    /* Стили для изображения в первой секции */
 }
 
 
@@ -75,6 +75,7 @@ select {
 }
 
 .section-title {
+    margin-bottom: 25px;
 padding-bottom: 20px;
     font-size: 29px;
     /* Стили для заголовков во второй секции */
@@ -82,7 +83,7 @@ padding-bottom: 20px;
 
 .frameworks-list {
 list-style-image: url("/ep_check.svg");
-padding-left:20px;
+padding: 0 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
@@ -90,12 +91,12 @@ padding-left:20px;
 .books-list {
     list-style-type:decimal;
     padding-left: 30px;
-    font-size: 19px;
+    font-size: 16px;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
-    font-size: 19px;
+    font-size: 16px;
     /* Стили для подписей чекбоксов */
 }
 
@@ -105,7 +106,7 @@ padding-left:20px;
     border-radius: 5px;
     border: 1px solid #3030304D;
     padding-left: 10px;
-    FONT-SIZE: 19PX;
+    FONT-SIZE: 16PX;
     /* Стили для односточного поля ввода текста */
 }
 
@@ -121,6 +122,7 @@ border: none;
 }
 
 .line {
+    margin: 60px 0;
 padding-top: 20px;
     padding-bottom: 20px;
 
@@ -130,14 +132,14 @@ padding-top: 20px;
 table {
     width: 300px;
     height: 196px;
-    font-size: 17px;
+    font-size: 14px;
     border-collapse: collapse;
 
     /* Стили для таблицы */
 }
 
 th, td {
-    padding: 10px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
@@ -151,5 +153,6 @@ footer {
 .footer-link {
     color: blue;
     line-height: 76px;
+    font-size: 14px;
     /* Стили для футера */
 }
