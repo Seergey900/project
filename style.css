@@ -1,0 +1,155 @@
+* {
+
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+    /* Свойства для сброса начальных стилей элементов */
+}
+
+body {
+    font-family: 'Cascadia Mono', sans-serif;
+    color: #303030;
+}
+
+header {
+    background-color: blue;
+    height: 76px;
+    padding-top: 20px
+padding-bottom: 20px;
+    /* Стили для хедера */
+}
+
+header span {
+    color: white;
+  line-height: 76px;
+    font-weight: bold;
+    /* Стили для текста в хедере IT-INCUBATOR */
+}
+
+.main-section {
+    background-color:#FAFAFF;
+padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100%;
+    /* Стили для первой секции */
+}
+
+.main-title {
+    font-size: 58px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    /* Стили для заголовка в первой секции */
+}
+
+.main-text {
+    font-size: 18px;
+    /* Стили для текста в первой секции */
+}
+
+.main-image {
+    width: 715px;
+    /* Стили для изображения в первой секции */
+}
+
+
+.about-section {
+    padding: 100px 0;
+    background-color:#FFFFFF;
+
+    /* Стили для второй секции */
+}
+
+select {
+    appearance: none;
+    border: 1px solid #3030304D;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    width: 150px;
+    background-image: url("/strelka.svg");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 15px;
+}
+
+.section-title {
+padding-bottom: 20px;
+    font-size: 29px;
+    /* Стили для заголовков во второй секции */
+}
+
+.frameworks-list {
+list-style-image: url("/ep_check.svg");
+padding-left:20px;
+    /* Стили для маркированного списка во второй секции */
+}
+
+
+.books-list {
+    list-style-type:decimal;
+    padding-left: 30px;
+    font-size: 19px;
+    /* Стили для нумерованного списка во второй секции */
+}
+
+.label {
+    font-size: 19px;
+    /* Стили для подписей чекбоксов */
+}
+
+.text-field {
+    width: 330px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #3030304D;
+    padding-left: 10px;
+    FONT-SIZE: 19PX;
+    /* Стили для односточного поля ввода текста */
+}
+
+.btn {
+    width: 125px;
+    height: 36px;
+    border-radius: 5px;
+    background-color:#2965F1;
+    color: #fff;
+    font-size:17px;
+border: none;
+    /* Стили для кнопки */
+}
+
+.line {
+padding-top: 20px;
+    padding-bottom: 20px;
+
+    /* Стили для линии */
+}
+
+table {
+    width: 300px;
+    height: 196px;
+    font-size: 17px;
+    border-collapse: collapse;
+
+    /* Стили для таблицы */
+}
+
+th, td {
+    padding: 10px;
+    /* Стили для ячеек таблицы */
+}
+
+footer {
+    padding: 20px 0 20px 0;
+    background-color: #A3A7FF4D;
+    height: 76px;
+    /* Стили для футера */
+}
+
+.footer-link {
+    color: blue;
+    line-height: 76px;
+    /* Стили для футера */
+}
