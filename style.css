@@ -90,7 +90,7 @@ padding: 0 20px;
 
 .books-list {
     list-style-type:decimal;
-    padding-left: 30px;
+    padding: 0 20px;
     font-size: 16px;
     /* Стили для нумерованного списка во второй секции */
 }
@@ -144,13 +144,14 @@ th, td {
 }
 
 footer {
-    padding: 20px 0 20px 0;
+    padding:26px 0;
     background-color: #A3A7FF4D;
     height: 76px;
     /* Стили для футера */
 }
 
 .footer-link {
+    text-decoration: none;
     color: blue;
     line-height: 76px;
     font-size: 14px;
