@@ -143,6 +143,7 @@ flex-direction: column-reverse
 .skills {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
